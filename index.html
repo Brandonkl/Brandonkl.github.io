@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link rel="icon" href="lorenz.png" type="image/icon type">
+        <link rel="icon" href="lorenz.png" type="image/png">
         <title>Brandon Klein</title>
+        <style>
+            body {
+                background-color: #FCF5E5;
+                font-family: Courier, monospace;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            img.logo {
+                max-width: 90%;
+                height: auto;
+            }
+            .divider {
+                width: 90%;
+                max-width: 600px;
+                margin: 20px auto;
+                border-top: 1px solid black;
+            }
+            .text {
+                font-size: 14px;
+            }
+            @media (max-width: 600px) {
+                .text {
+                    font-size: 12px;
+                }
+            }
+        </style>
     </head>
-    <body style="background-color:#FCF5E5;">
-        <center>
-            <img src="name.png" width="600px">
-            <br>
-
+    <body>
+        <div class="container">
+            <img src="name.png" class="logo" alt="Brandon Klein">
+            <div class="divider"></div>
+            <p class="text">Theoretical Physics Ph.D. Student</p>
+            <p class="text">Johns Hopkins University</p>
+            <p class="text"><a href="https://orcid.org/0000-0003-0211-3968" target="_blank">Curriculum Vitae</a></p>
             <!-- Hey! I see you inspecting elements here:)  -->
-
-            ___________________________________________________
-            <br><br><br>
-
-            <!-- There's definitely a smarter way to do this...  -->
-
-            <font face = "Courier" size = "2"> Theoretical Physics Ph.D. Student </font><br>
-            <font face = "Courier" size = "2"> Johns Hopkins University </font><br>
-            <font face = "Courier" size = "2"> <a href="https://orcid.org/0000-0003-0211-3968" target="_blank">Curriculum Vitae</a> </font><br>
-            <font face = "Courier" size = "2"> <a href="https://orcid.org/0000-0003-0211-3968" target="_blank">ORCiD</a> </font><br>
-            <font face = "Courier" size = "2"> email: <a href="mailto:bklein6@jh.edu"> bklein6 [at] jh.edu</a></font><br>
-            <br><br><br>
 
             <div style="width: 600px;">
                 <font face = "Courier" size = "2"> Hi there! I'm Brandon; an aspiring physicist, programmer, and musician. 
@@ -33,6 +55,6 @@
                     Feel free to reach out if you have any questions or want to chat! 
                 </font>
             </div>
-        </center>
+        </div>
     </body>
 </html>
