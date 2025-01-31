@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <link rel="icon" href="lorenz.png" type="image/png">
         <title>Brandon Klein</title>
         <style>
-
             @font-face { font-family: "akka"; src: url("akka.ttf");}
 
             body {
@@ -21,13 +19,14 @@
                 margin: 0 auto;
                 padding: 20px;
             }
-            img.logo {
-                max-width: 90%;
-                height: auto;
+            .title {
+                font-size: clamp(40px, 8vw, 90pt); 
+                font-family: akka;
+                margin: 0px;
             }
             .divider {
                 width: 90%;
-                max-width: 1024px;
+                max-width: 700px;
                 margin: 20px auto;
                 border-top: 1px solid black;
             }
@@ -44,7 +43,7 @@
     </head>
     <body>
         <div class="container">
-            <p style="font-size:90pt; font-family:akka; margin:40px;"> 
+            <p class="title"> 
                 <span style="color:#ffca62">B</span><span style="color:#f27730">r</span><span style="color:#a5cb98">a</span><span style="color:#ad8746">n</span><span style="color:#e9d499">d</span><span style="color:#ffca62">o</span><span style="color:#f27730">n</span><span> </span><span style="color:#a5cb98">K</span><span style="color:#ad8746">l</span><span style="color:#e9d499">e</span><span style="color:#ffca62">i</span><span style="color:#f27730">n</span>
             </p>
             <div class="divider"></div>
@@ -54,8 +53,6 @@
             <p class="text"><a href="https://orcid.org/0000-0003-0211-3968" target="_blank">ORCiD</a></p>
             <p class="text"> email: <a href="mailto:bklein6@jh.edu"> bklein6 [at] jh.edu</a></p>
             <div class="divider"></div>
-            <!-- Hey! I see you inspecting elements here:)  -->
-
             <p class="text"> Hi there! I'm Brandon; an aspiring physicist, programmer, and musician. Currently, I study chaos and topology in active liquid crystalline systems for my Ph.D. with <a target="_blank" href="https://pages.jh.edu/dbeller3/home.html">Daniel A. Beller</a> at Johns Hopkins. I got started in physics during my undergraduate at Rensselaer Polytechnic Institute, where I also studied computer science. My academic interests revolve around a love for statistical mechanics, probability, and information theory. This webpage is still pretty new, but I'm hoping to keep it updated with fun code snippets and interesting problems from pure math, computational theory, and physics. Feel free to reach out if you have any questions or want to chat!</p> 
         </div>
     </body>
